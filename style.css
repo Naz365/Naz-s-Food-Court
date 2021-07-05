@@ -1,4 +1,76 @@
-* {
-  background-image: url("/practices/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg");
-  background-color: aquamarine;
+*{
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-image: linear-gradient(rgb(255, 60, 0), orange);
+  color: #fff;
+  padding: 9px 5px 7px 5px;
+}
+
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.nav li {
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  padding-right: 2em;
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 800;
+}
+.nav a:hover {
+  color: rgb(12, 213, 248);
+  letter-spacing: 2px;
+}
+.header{
+  display: flex;
+}
+.half-width{
+  justify-content: center;
+  width: 50%;
+  margin-top: 18%;
+  margin-left: 60px;
+  padding-left: 10px;
+  font-size: 28px;
+}
+.half-width img {
+  width: 80%;
+}
+span{
+  text-align: center;
+  color:rgb(6, 243, 6);
+}
+button {
+  background-image: linear-gradient(skyblue, aqua);
+  font-family: "Oswald", sans-serif;
+  border:none;
+
+  padding: 20px 25px; 
+  font-size: 15px;
+  border-top-left-radius:25px;  
+  border-top-right-radius:25px;  
+  border-bottom-right-radius:25px;  
+  border-bottom-left-radius:25px; 
+  margin: 0%;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(110, 88, 238);
+  font-weight: 600;
+}
+.btn{
+  padding: 12% 10px 5px 23px;
 }
