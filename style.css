@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Lora', serif;
 }
 .nav {
   display: flex;
@@ -52,10 +54,14 @@ span {
   text-align: center;
   color: rgb(6, 243, 6);
 }
+#pera{
+  color: rgb(85, 81, 81);
+}
 button {
   background-image: linear-gradient(skyblue, aqua);
   font-family: "Oswald", sans-serif;
   border: none;
+  color: black;
 
   padding: 20px 25px;
   font-size: 15px;
@@ -63,7 +69,7 @@ button {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  margin: 0%;
+  
 }
 
 a {
@@ -73,8 +79,9 @@ a {
 }
 .btn {
   padding: 12% 10px 5px 23px;
+  color: black;
 }
-#ch{
+#ch {
   color: rgb(73, 73, 73);
 }
 .mid {
@@ -84,16 +91,69 @@ a {
 #chef {
   background-image: linear-gradient(rgb(36, 252, 90), rgb(38, 223, 192));
 }
-.recipes{
+
+.recipes {
   text-align: center;
-  padding: 20px 20px;
+  margin: 15px 10px 30px 10px;
+  padding: 15px 10px;
 }
-.recipes-feild{
+.food_list {
   display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 0;
+  padding-left: 0;
 }
-footer{
+.food_list img {
+  border-radius: 8%;
+  justify-content: center;
+  width: 290px;
+  height: 255px;
+  margin-left: 1.5px;
+  padding-left: 0;
+}
+.food_items {
+  padding: 30px;
+  width: 20%;
+  height: 550px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 40px rgb(207, 199, 176);
+  margin-left: 0;
+  padding-left: 10px;
+}
+.food_items h3 {
+  font-weight: bolder;
+}
+.food_items p {
+  color: darkgray;
+}
+.o-btn {
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgb(28, 223, 109), rgb(0, 183, 255));
+  justify-content: center;
+  margin: 15px 5px;
+  font-weight: 600;
+}
+.follower_field {
+  display: flex;
+  justify-content: center;
+}
+.follower_list {
+  background-color: rgb(241, 232, 232);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  box-shadow: 10px 10px 40px rgb(253, 253, 249);
+  margin: 100px 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
   text-align: center;
   background-image: linear-gradient(rgb(29, 24, 24), black);
-  color:aquamarine;
+  color: rgb(244, 247, 246);
   padding: 15px;
 }
