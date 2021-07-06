@@ -84,3 +84,16 @@ a {
 #chef {
   background-image: linear-gradient(rgb(36, 252, 90), rgb(38, 223, 192));
 }
+.recipes{
+  text-align: center;
+  padding: 20px 20px;
+}
+.recipes-feild{
+  display: flex;
+}
+footer{
+  text-align: center;
+  background-image: linear-gradient(rgb(29, 24, 24), black);
+  color:aquamarine;
+  padding: 15px;
+}
