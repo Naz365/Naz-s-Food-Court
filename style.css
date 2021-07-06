@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -10,7 +10,6 @@
   color: #fff;
   padding: 9px 5px 7px 5px;
 }
-
 
 .nav ul {
   display: flex;
@@ -34,43 +33,54 @@
   color: rgb(12, 213, 248);
   letter-spacing: 2px;
 }
-.header{
+.header {
   display: flex;
 }
-.half-width{
-  justify-content: center;
+.half-width {
   width: 50%;
   margin-top: 18%;
   margin-left: 60px;
   padding-left: 10px;
-  font-size: 28px;
 }
 .half-width img {
   width: 80%;
 }
-span{
+h1 {
+  font-size: 28px;
+}
+span {
   text-align: center;
-  color:rgb(6, 243, 6);
+  color: rgb(6, 243, 6);
 }
 button {
   background-image: linear-gradient(skyblue, aqua);
   font-family: "Oswald", sans-serif;
-  border:none;
+  border: none;
 
-  padding: 20px 25px; 
+  padding: 20px 25px;
   font-size: 15px;
-  border-top-left-radius:25px;  
-  border-top-right-radius:25px;  
-  border-bottom-right-radius:25px;  
-  border-bottom-left-radius:25px; 
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   margin: 0%;
 }
 
-a{
+a {
   text-decoration: none;
-  color:rgb(110, 88, 238);
+  color: rgb(255, 253, 240);
   font-weight: 600;
 }
-.btn{
+.btn {
   padding: 12% 10px 5px 23px;
+}
+#ch{
+  color: rgb(73, 73, 73);
+}
+.mid {
+  display: flex;
+  background-image: url("./food-network-main/images/shapes/Frame\ 59.jpg");
+}
+#chef {
+  background-image: linear-gradient(rgb(36, 252, 90), rgb(38, 223, 192));
 }
